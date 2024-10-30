@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
 		if (strcmp(target, "DONE") == 0) break;
 		
 		char *found = substringSearchAA(target, lines, lineCount);
+		
 		if (found)
 			printf("Found: %s\n", found);
 		else
